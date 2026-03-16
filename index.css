@@ -1,0 +1,35 @@
+/* NutriBot Messenger Custom Styling */
+df-messenger {
+    --df-messenger-bot-message: #b1c1d6; 
+    --df-messenger-user-message: #5978dd; 
+    --df-messenger-button-titlebar-color: #2563eb; 
+    --df-messenger-font-color: #333;
+    --df-messenger-chat-background-color: #fafafa;
+    --df-messenger-send-icon: #2563eb;
+    
+    /* Position it nicely on your portfolio */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+}
+
+.chatbot-container {
+    display: flex;
+    width: 100%;
+    height: 100svh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/nutrition-bg.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.bot-logo {
+    height: 12rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 4px solid #43a047;
+    margin-bottom: 20px;
+}

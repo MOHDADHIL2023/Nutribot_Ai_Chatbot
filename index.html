@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NutriBot</title>
+    <link rel="stylesheet" href="/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <main>
+    <section class="chatbot-hero" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 60vh;">
+        <img src="/Images/Nurtibot.jpg" alt="Nutribot Logo" style="height: 12rem; border-radius: 50%;">
+        <h1 class="display-2 fw-medium mt-2">NutriBot 🇦🇮</h1>
+        <p class="fs-3 fw-medium mt-2" style="letter-spacing: 0.5rem; color: #2563eb;">YOUR Ai NUTRITIONIST ֎</p>
+    </section>
+</main>
+
+<footer>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="NutriBot AI"
+      agent-id="28cc032a-9799-4721-a800-a01c3e913f15"
+      language-code="en"
+      chat-icon="/Images/Blue Chat Icon.png"> </df-messenger>
+</footer>
+
+</body>
+</html>
